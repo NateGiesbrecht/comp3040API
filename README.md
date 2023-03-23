@@ -23,6 +23,40 @@ Accesing the Brandon resource will return only data related to Brandon MB.
 
 > /Winnipeg
 
+All weather endpoint 
+```json
+{
+  "results": {
+    "UVIndex": 5,
+    "Precipitation": "10%",
+    "Temperature": "20C",
+    "snowfall": "0",
+    "snowDepth": "0cm",
+    "cloudCoverage": "30%",
+    "airDensity": 1.5
+  },
+  "status": "OK"
+}
+```
+Precipitation endpoint
+```json
+{
+  "results": {
+    "Precipitation": "10%"
+  },
+  "status": "OK"
+}
+```
+
+UVIndex endpoint 
+```json
+{
+  "results": {
+    "UVIndex": 5,
+  },
+  "status": "OK"
+}
+```
 Accesing the Winnipeg resource will return only data related to Winnipeg MB.
 
 ## Sample Request
