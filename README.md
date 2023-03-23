@@ -23,7 +23,9 @@ Accesing the Brandon resource will return only data related to Brandon MB.
 
 > /Winnipeg
 
-All weather endpoint 
+Each of the resources will return data in the following formats based on the endpoint used: 
+
+##### All weather endpoint 
 ```json
 {
   "results": {
@@ -38,7 +40,7 @@ All weather endpoint
   "status": "OK"
 }
 ```
-Precipitation endpoint
+##### Precipitation endpoint
 ```json
 {
   "results": {
@@ -48,7 +50,7 @@ Precipitation endpoint
 }
 ```
 
-UVIndex endpoint 
+##### UVIndex endpoint 
 ```json
 {
   "results": {
