@@ -32,3 +32,20 @@ Accesing the Winnipeg resource will return only data related to Winnipeg MB.
 ```
 https://group11.com/winnipeg/AllWeather?date=2020-08-01
 ```
+
+##### Result
+
+```json
+{
+  "results": {
+    "UVIndex": 5,
+    "Precipitation": "10%",
+    "Temperature": "20C",
+    "snowfall": "0",
+    "snowDepth": "0cm",
+    "cloudCoverage": "30%",
+    "airDensity": 1.5
+  },
+  "status": "OK"
+}
+```
