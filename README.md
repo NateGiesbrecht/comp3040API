@@ -25,7 +25,7 @@ Accesing the Brandon resource will return only data related to Brandon MB.
 
 Each of the resources will return data in the following formats based on the endpoint used: 
 
-##### All weather endpoint 
+##### 1. All weather endpoint 
 ```json
 {
   "results": {
@@ -40,7 +40,7 @@ Each of the resources will return data in the following formats based on the end
   "status": "OK"
 }
 ```
-##### Precipitation endpoint
+##### 2. Precipitation endpoint
 ```json
 {
   "results": {
@@ -50,7 +50,7 @@ Each of the resources will return data in the following formats based on the end
 }
 ```
 
-##### UVIndex endpoint 
+##### 3. UVIndex endpoint 
 ```json
 {
   "results": {
